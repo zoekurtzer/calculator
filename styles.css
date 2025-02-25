@@ -1,58 +1,64 @@
 body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: #4f2828;
+  font-family: Arial, sans-serif; /* sets the font to Arial, with sans-serif as a fallback */
+  display: flex; /* uses flexbox for layout */
+  justify-content: center; /* horizontally centers the content */
+  align-items: center; /* vertically centers the content */
+  height: 100vh; /* sets the height of the body to 100% of the viewport height */
+  background: #4f2828; /* sets the background color to a dark red */
 }
+
 
 .calculator {
-  width: 250px;
-  background: rgb(5, 90, 97);
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgb(255, 201, 201);
+  width: 250px; /* sets the width of the calculator container */
+  background: rgb(5, 90, 97); /* sets the background color to a teal shade */
+  padding: 10px; /* adds padding inside the calculator */
+  border-radius: 10px; /* rounds the corners of the container */
+  box-shadow: 0px 0px 10px rgb(255, 201, 201); /* adds a soft pinkish shadow around the container */
 }
+
 
 #display {
-  font-size: 2em;
-  text-align: right;
-  padding: 10px;
-  background: #343167;
-  color: rgb(152, 133, 184);
-  border-radius: 5px;
-  margin-bottom: 10px;
-  min-height: 40px;
+  font-size: 2em; /* increases the font size for the display */
+  text-align: right; /* aligns text to the right */
+  padding: 10px; /* adds padding inside the display area */
+  background: #343167; /* sets the background to a dark purple */
+  color: rgb(152, 133, 184); /* sets the text color to a light lavender */
+  border-radius: 5px; /* rounds the corners of the display */
+  margin-bottom: 10px; /* adds space below the display */
+  min-height: 40px; /* sets a minimum height for the display area */
 }
+
 
 .buttons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 5px;
+  display: grid; /* uses grid layout for buttons */
+  grid-template-columns: repeat(4, 1fr); /* divides the buttons into 4 equal columns */
+  gap: 5px; /* adds space between buttons */
 }
+
 
 button {
-  font-size: 1.2em;
-  padding: 15px;
-  border: none;
-  cursor: pointer;
-  background: #a29e24;
-  border-radius: 5px;
-  color: rgb(255, 239, 122);
+  font-size: 1.2em; /* increases the font size for the buttons */
+  padding: 15px; /* adds padding inside the buttons */
+  border: none; /* removes the border from the buttons */
+  cursor: pointer; /* changes the cursor to a pointer when hovering over a button */
+  background: #a29e24; /* sets the background color of the buttons to a yellow-green shade */
+  border-radius: 5px; /* rounds the corners of the buttons */
+  color: rgb(255, 239, 122); /* sets the text color to a light yellow */
 }
+
 
 button:active {
-  background: #ff0303;
+  background: #ff0303; /* changes the background color of the button to red when pressed */
 }
+
 
 .operator {
-  background: rgb(176, 94, 206);
-  color: rgb(255, 161, 244);
+  background: rgb(176, 94, 206); /* sets the background of operator buttons to a purple shade */
+  color: rgb(255, 161, 244); /* sets the text color of operator buttons to a light pink */
 }
+
 
 #equals {
-  background: rgb(221, 77, 77);
-  color: rgb(45, 255, 111);
+  background: rgb(221, 77, 77); /* sets the background color of the equals button to red */
+  color: rgb(45, 255, 111); /* sets the text color of the equals button to green */
 }
-

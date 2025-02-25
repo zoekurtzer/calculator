@@ -1,40 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!-- declares the document type as HTML5 -->
+<html lang="en"> <!-- sets the page to english -->
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Zoe Kurtzer | Calculator</title>
-   <link rel="stylesheet" href="styles.css">
+   <meta charset="UTF-8"> <!-- specifies the character encoding for the document (UTF-8) -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsive on mobile devices -->
+   <title>Zoe Kurtzer | Calculator</title> <!-- sets the title of the page shown in the browser tab -->
+   <link rel="stylesheet" href="styles.css"> <!-- links the external CSS file to style the page -->
 </head>
 <body>
-   <div class="calculator">
-       <div id="display">0</div>
-       <div class="buttons">
-           <button class="operator" data-op="+">+</button>
-           <button class="operator" data-op="-">-</button>
-           <button class="operator" data-op="*">×</button>
-           <button class="operator" data-op="/">÷</button>
+   <div class="calculator"> <!-- creates a container div for the calculator -->
+       <div id="display">0</div> <!-- the display area - initially showing 0 -->
+       <div class="buttons"> <!-- creates a container for the calculator buttons -->
+           <button class="operator" data-op="+">+</button> <!-- addition button -->
+           <button class="operator" data-op="-">-</button> <!-- subtraction button -->
+           <button class="operator" data-op="*">×</button> <!-- multiplication button -->
+           <button class="operator" data-op="/">÷</button> <!-- division button -->
 
-           <button class="number" data-num="7">7</button>
-           <button class="number" data-num="8">8</button>
-           <button class="number" data-num="9">9</button>
 
-           <button class="number" data-num="4">4</button>
-           <button class="number" data-num="5">5</button>
-           <button class="number" data-num="6">6</button>
+           <button class="number" data-num="7">7</button> <!-- number button for 7 -->
+           <button class="number" data-num="8">8</button> <!-- number button for 8 -->
+           <button class="number" data-num="9">9</button> <!-- number button for 9 -->
 
-           <button class="number" data-num="1">1</button>
-           <button class="number" data-num="2">2</button>
-           <button class="number" data-num="3">3</button>
 
-           <button class="number" data-num="0">0</button>
-           <button id="decimal">.</button>
-           <button id="clear">C</button>
-           <button id="backspace">⌫</button>
-           <button id="equals">=</button>
+           <button class="number" data-num="4">4</button> <!-- number button for 4 -->
+           <button class="number" data-num="5">5</button> <!-- number button for 5 -->
+           <button class="number" data-num="6">6</button> <!-- number button for 6 -->
+
+
+           <button class="number" data-num="1">1</button> <!-- number button for 1 -->
+           <button class="number" data-num="2">2</button> <!-- number button for 2 -->
+           <button class="number" data-num="3">3</button> <!-- number button for 3 -->
+
+
+           <button class="number" data-num="0">0</button> <!-- number button for 0 -->
+           <button id="decimal">.</button> <!-- decimal point button -->
+           <button id="clear">C</button> <!-- clear button to reset the display -->
+           <button id="backspace">⌫</button> <!-- backspace button to remove the last character -->
+           <button id="equals">=</button> <!-- equals button to calculate the result -->
        </div>
    </div>
 
-   <script src="script.js"></script>
+
+   <script src="script.js"></script> <!-- links the external JavaScript file to add functionality to the calculator -->
 </body>
 </html>
