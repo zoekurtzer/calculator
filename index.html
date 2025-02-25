@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zoe Kurtzer | Calculator</title>
-  <link rel="stylesheet" href="styles.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Zoe Kurtzer | Calculator</title>
+   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+   <div class="calculator">
+       <div id="display">0</div>
+       <div class="buttons">
+           <button class="operator" data-op="+">+</button>
+           <button class="operator" data-op="-">-</button>
+           <button class="operator" data-op="*">×</button>
+           <button class="operator" data-op="/">÷</button>
 
-  <div class="calculator">
-    <div id="display">0</div>
-    <div class="buttons">
+           <button class="number" data-num="7">7</button>
+           <button class="number" data-num="8">8</button>
+           <button class="number" data-num="9">9</button>
 
-      <button class="operator">-</button>
-      <button class="operator">×</button>
-      <button class="operator">÷</button>
+           <button class="number" data-num="4">4</button>
+           <button class="number" data-num="5">5</button>
+           <button class="number" data-num="6">6</button>
 
-      <button class="number">7</button>
-      <button class="number">8</button>
-      <button class="number">9</button>
+           <button class="number" data-num="1">1</button>
+           <button class="number" data-num="2">2</button>
+           <button class="number" data-num="3">3</button>
 
-      <button class="number">4</button>
-      <button class="number">5</button>
-      <button class="number">6</button>
+           <button class="number" data-num="0">0</button>
+           <button id="decimal">.</button>
+           <button id="clear">C</button>
+           <button id="backspace">⌫</button>
+           <button id="equals">=</button>
+       </div>
+   </div>
 
-      <button class="number">1</button>
-      <button class="number">2</button>
-      <button class="number">3</button>
-      <button class="number">0</button>
-
-      <button id="decimal">.</button>
-      <button id="clear">C</button>
-      <button id="backspace">⌫</button>
-      <button id="equal">=</button>
-
-    </div>
-  </div>
-
-  <script src="script.js"></script>
+   <script src="script.js"></script>
 </body>
 </html>
